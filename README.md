@@ -18,7 +18,7 @@ Then enter the following commands:
 2. ```wget https://github.com/Tristeamer/setup-thing/releases/download/v1.1.0/setupthing.sh```
 3. ```chmod u+x setupthing.sh```
 4. ```./setupthing.sh```
-5. ```chmod u+x /home/$USER/Desktop/setup-thing/DebInstaller/Installer.sh && chmod u+x /home/$USER/Desktop/setup-thing/PackageManager/PackageManagers.sh && chmod u+x /home/$USER/Desktop/setup-thing/Uninstasller.sh```
+5. ```chmod u+x /home/$USER/Desktop/setup-thing/DebInstaller/Installer.sh && chmod u+x /home/$USER/Desktop/setup-thing/PackageManager/PackageManagers.sh && chmod u+x /home/$USER/Desktop/setup-thing/Uninstaller/Uninstaller.sh && cd /home/$USER/Desktop/setup-thing```
 6. ./setup.sh
 
 Then hope it works.
