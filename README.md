@@ -1,5 +1,5 @@
 # setup-thing
-A thing I made after some googleing to install some programs on my laptop because I was tired of doing it myself.
+A thing I made after some googleing to install some programs on my laptop because I was tired of doing it myself. What this very simple script does is just download and install packages for you.
 
 The ```wget``` command will download the main script (setupthing.sh) to ```/home/$USER/Desktop/```, that script will then clone a project folder to the desktop. Because of the way that these really shitty scripts were made they only work when ran from ```/home/$USER/Desktop/``` but I dont really see that as much of a problem because of how this script will probably only be used once or twice and can be quickly deleted from the desktop and can be quickly reinstalled (as it's not that big) if need be.
 
