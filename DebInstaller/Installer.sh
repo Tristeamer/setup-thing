@@ -167,13 +167,13 @@ case $CHOICE in
         12)
             echo "Opening PackageManagers"
             cd
-            cd ~/Desktop/SetupFaster/PackageManager
+            cd ~/Desktop/setup-thing/PackageManager
             ./PackageManagers.sh
             ;;
         13)
             echo "Opening Setup"
             cd
-            cd ~/Desktop/SetupFaster
+            cd ~/Desktop/setup-thing
             ./setup.sh
             ;;
 esac
