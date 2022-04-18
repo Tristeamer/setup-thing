@@ -1,9 +1,9 @@
 # setup-thing
 A thing I made after some googleing to install some programs on my laptop because I was tired of doing it myself.
 
-The ```wget``` command will download the main script (setupthing.sh) to ```/home/$USER/Desktop/```, that script will then clone the project to the desktop. Because of the way that these really shitty scripts were made they only work when ran from ```/home/$USER/Desktop/``` but I dont really see that as much of a problem because of how this script will probably only be used once or twice and can be quickly deleted from the desktop and can be quickly reinstalled (as it's not that big) if need be.
+The ```wget``` command will download the main script (setupthing.sh) to ```/home/$USER/Desktop/```, that script will then clone a project folder to the desktop. Because of the way that these really shitty scripts were made they only work when ran from ```/home/$USER/Desktop/``` but I dont really see that as much of a problem because of how this script will probably only be used once or twice and can be quickly deleted from the desktop and can be quickly reinstalled (as it's not that big) if need be.
 
-After that the ```chmod``` command will mark the scripts as executeable.
+After that the ```chmod``` command will make the scripts as executeable.
 
 Current Supported Programs: ```Vlc, Steam, Google Chrome, Discord, Spotify, OBS, Gnome-Weather, Gnome-Maps, Minecraft, QBittorrent.```
 
