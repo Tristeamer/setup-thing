@@ -33,5 +33,3 @@ sudo chmod u+x Uninstaller.sh
 cd 
 
 cd ~/Desktop/setup-thing/
-
-./setup.sh
