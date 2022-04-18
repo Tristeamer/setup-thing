@@ -4,7 +4,7 @@ HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=4
 BACKTITLE="This script is probably broken as hell by the time you're using it!"
-TITLE="Quicker Setup V1.0"
+TITLE="Setup Thing V1.1"
 MENU="Pick an app to install:"
 
 OPTIONS=(1 "VLC Media Player"
