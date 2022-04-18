@@ -116,7 +116,7 @@ case $CHOICE in
         12)
             echo "Opening Setup"
             cd
-            cd ~/Desktop/SetupFaster
+            cd ~/Desktop/setup-thing
             ./setup.sh
             ;;
 esac
