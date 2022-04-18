@@ -58,6 +58,7 @@ case $CHOICE in
             echo "Installing Discord..."
             wget -O discord.deb "https://discordapp.com/api/download?platform=linux&format=deb"
             sudo dpkg -i discord.deb
+            sudo apt install -f -y
             rm discord.deb
             echo Done.
             ;;
@@ -72,6 +73,7 @@ case $CHOICE in
             echo "Installing OBS Studio..."
             wget -O obs.deb http://archive.ubuntu.com/ubuntu/pool/universe/o/obs-studio/obs-studio_27.0.1+dfsg1-1_amd64.deb
             sudo dpkg -i obs.deb
+            sudo apt install -f -y
             rm obs.deb
             echo Done.
             ;;
@@ -134,6 +136,7 @@ case $CHOICE in
             echo "Installing OBS Studio..."
             wget -O obs.deb http://archive.ubuntu.com/ubuntu/pool/universe/o/obs-studio/obs-studio_27.0.1+dfsg1-1_amd64.deb
             sudo dpkg -i obs.deb
+            sudo apt install -f -y
             rm obs.deb
             echo Done.
             echo "Installing Spotify..."
@@ -144,6 +147,7 @@ case $CHOICE in
             echo "Installing Discord..."
             wget -O discord.deb "https://discord.com/api/download?platform=linux&format=deb"
             sudo dpkg -i discord.deb
+            sudo apt install -f -y
             rm discord.deb
             echo Done.
             echo "Installing Chrome..."
