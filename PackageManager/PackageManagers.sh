@@ -4,7 +4,7 @@ HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=4
 BACKTITLE="This script is probably broken as hell by the time you're using it!"
-TITLE="Quicker Setup V1.0"
+TITLE="Quicker Setup V1.1"
 MENU="Select a package type:"
 
 OPTIONS=(1 ".DEB"
