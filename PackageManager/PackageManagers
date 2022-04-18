@@ -25,7 +25,7 @@ case $CHOICE in
         1)
             echo "Opening .Deb Installer"
             cd   
-            cd   ~/Desktop/SetupFaster/
+            cd   ~/Desktop/setup-thing/
             cd   DebInstaller
             ./Installer.sh
             ;;
@@ -35,7 +35,7 @@ case $CHOICE in
         3)
             echo "Opening Setup"
             cd
-            cd ~/Desktop/SetupFaster
+            cd ~/Desktop/setup-thing/
             ./setup.sh
             ;;
 esac
