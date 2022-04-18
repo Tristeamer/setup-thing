@@ -26,13 +26,13 @@ case $CHOICE in
         1)
             echo "Opening PackageManagers"
             cd
-            cd   ~/Desktop/SetupFaster/PackageManager
+            cd   ~/Desktop/setup-thing/PackageManager
             ./PackageManagers.sh
             ;;
         2)
             echo "Opening Uninstaller"
             cd
-            cd ~/Desktop/SetupFaster/Uninstaller
+            cd ~/Desktop/setup-thing/Uninstaller
             ./Uninstaller.sh
             ;;
 esac
