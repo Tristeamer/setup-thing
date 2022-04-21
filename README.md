@@ -5,7 +5,7 @@ The ```wget``` command will download the main script (setupthing.sh) to ```/home
 
 After that the ```chmod``` command will make the scripts as executeable.
 
-Current known working distros: ```Ubuntu 21.10``` (it may or may not work with any ```Debian``` based distro)
+Current known working distros: ```Ubuntu 21.10``` (it may or may not work with any ```Debian``` based distro, I would like to add .rpm support in the future)
 
 Current Supported Programs: ```Vlc, Steam, Google Chrome, Discord, Spotify, OBS, Gnome-Weather, Gnome-Maps, Minecraft, QBittorrent.```
 
