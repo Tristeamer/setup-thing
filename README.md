@@ -11,7 +11,7 @@ Current Supported Programs: ```Vlc, Steam, Google Chrome, Discord, Spotify, OBS,
 
 I have no idea why you would ever want to use this as it only works for like 10 programs and its really poorly made and probably doesnt even work but if you want to go ahead.
 
-If you actually would like to use for whatever reason then do this:
+If you actually would like to use this for whatever reason then do this:
 
 Open a terminal
 Then enter the following commands: 
