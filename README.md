@@ -22,3 +22,10 @@ Then enter the following commands:
 6. ```./setup.sh```
 
 Then hope it works.
+
+
+
+
+
+
+(Also probably important to note that this was made as more of a basic educational project to try writing a shell script)
