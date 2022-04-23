@@ -36,6 +36,7 @@ case $CHOICE in
             echo "Installing VLC Media Player..."
             wget -O vlc.deb	http://archive.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc_3.0.16-1_amd64.deb
             sudo dpkg -i vlc.deb
+            sudo apt install -f -y
             rm vlc.deb
             echo Done.
             ;;
@@ -43,6 +44,7 @@ case $CHOICE in
             echo "Installing Steam..."
             wget -O steam.deb https://cdn.cloudflare.steamstatic.com/client/installer/steam.deb
             sudo dpkg -i steam.deb
+            sudo apt install -f -y
             rm steam.deb
             echo Done.
             ;;
@@ -66,6 +68,7 @@ case $CHOICE in
             echo "Installing Spotify..."
             wget -O spotify.deb http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.1.72.439.gc253025e_amd64.deb
             sudo dpkg -i spotify.deb
+            sudo apt install -f -y
             rm spotify.deb
             echo Done.
             ;;
@@ -81,6 +84,7 @@ case $CHOICE in
             echo "Installing Gnome-Weather..."
             wget -O gnome-weather.deb http://archive.ubuntu.com/ubuntu/pool/universe/g/gnome-weather/gnome-weather_40.1-1_all.deb
             sudo dpkg -i gnome-weather.deb
+            sudo apt install -f -y
             rm gnome-weather.deb
             echo Done.
             ;;
@@ -97,6 +101,7 @@ case $CHOICE in
             wget -O Minecraft.deb https://launcher.mojang.com/download/Minecraft.deb
             sudo apt install default-jre
             sudo dpkg -i Minecraft.deb
+            sudo apt install -f -y
             rm Minecraft.deb
             echo Done.
             ;;
@@ -131,6 +136,7 @@ case $CHOICE in
             echo "Installing Gnome-Weather..."
             wget -O gnome-weather.deb http://archive.ubuntu.com/ubuntu/pool/universe/g/gnome-weather/gnome-weather_40.1-1_all.deb
             sudo dpkg -i gnome-weather.deb
+            sudo apt install -f -y
             rm gnome-weather.deb
             echo Done.
             echo "Installing OBS Studio..."
@@ -142,6 +148,7 @@ case $CHOICE in
             echo "Installing Spotify..."
             wget -O spotify.deb http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.1.72.439.gc253025e_amd64.deb
             sudo dpkg -i spotify.deb
+            sudo apt install -f -y
             rm spotify.deb
             echo Done.
             echo "Installing Discord..."
@@ -159,11 +166,13 @@ case $CHOICE in
             echo "Installing Steam..."
             wget -O steam.deb https://cdn.cloudflare.steamstatic.com/client/installer/steam.deb
             sudo dpkg -i steam.deb
+            sudo apt install -f -y
             rm steam.deb
             echo Done.
             echo "Installing VLC Media Player..."
             wget -O vlc.deb	http://archive.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc_3.0.16-1_amd64.deb
             sudo dpkg -i vlc.deb
+            sudo apt install -f -y
             rm vlc.deb
             echo Done.
             echo ITS A HONDA TING RIGHT NOW.
